@@ -1,0 +1,22 @@
+{
+  "pontos_extremidade": {
+    "previsao_teste": {
+      "descricao": "Ponto de extremidade para previsão de dados de teste",
+      "url": "http://endereco-api.com/previsao_teste",
+      "metodo": "POST",
+      "parametros": {
+        "dados": "dados_teste.json"
+      }
+    },
+    "previsao_em_tempo_real": {
+      "descricao": "Ponto de extremidade para previsão de vendas em tempo real",
+      "url": "http://endereco-api.com/previsao_tempo_real",
+      "metodo": "GET",
+      "parametros": {
+        "data": "2024-02-13",
+        "regiao": "Sudeste",
+        "produto": "Celular"
+      }
+    }
+  }
+}
